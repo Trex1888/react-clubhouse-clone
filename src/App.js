@@ -7,7 +7,7 @@ import Confirm from "./pages/Confirm";
 import Notification from "./pages/Notification";
 import AppLayout from "./pages/layouts/AppLayout";
 import Home from "./pages/Home";
-//123
+
 function App() {
   return (
     <Router>
