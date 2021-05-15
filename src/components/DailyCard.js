@@ -1,6 +1,6 @@
 import style from "../style/daily.module.css";
 import { Link } from "react-router-dom";
-import data from "../dailyCard.json";
+import data from "../data/dailyCard.json";
 
 function DailyCard() {
   return (
@@ -19,4 +19,3 @@ function DailyCard() {
 }
 
 export default DailyCard;
-//143
