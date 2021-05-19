@@ -1,47 +1,47 @@
 [
   {
     "id": 1,
-    "title": "GOOD TIME",
-    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "title": "Simple",
+    "sub_title": "Phish",
     "members": [
       {
-        "first_name": "Sriram",
-        "last_name": "krishnan"
+        "first_name": "Mike",
+        "last_name": "Gordon"
       },
       {
-        "first_name": "Aarthi",
-        "last_name": "Ramamurthy"
+        "first_name": "Jim",
+        "last_name": "Brown"
       },
       {
-        "first_name": "Steven",
-        "last_name": "Sinofsky"
+        "first_name": "Steve",
+        "last_name": "Finn"
       },
       {
         "first_name": "Paul",
-        "last_name": "Davison"
+        "last_name": "Blue"
       }
     ]
   },
   {
     "id": 2,
-    "title": "GOOD TIME",
-    "sub_title": "Calvin Harris x Email Nava on Good Time Show",
+    "title": "Fishwater",
+    "sub_title": "Widespread Panic",
     "members": [
       {
-        "first_name": "Sriram",
-        "last_name": "krishnan"
+        "first_name": "John",
+        "last_name": "Bell"
       },
       {
-        "first_name": "Aarthi",
-        "last_name": "Ramamurthy"
+        "first_name": "Joe",
+        "last_name": "Eagle"
       },
       {
-        "first_name": "Steven",
-        "last_name": "Sinofsky"
+        "first_name": "Ken",
+        "last_name": "Griffey"
       },
       {
-        "first_name": "Paul",
-        "last_name": "Davison"
+        "first_name": "Rick",
+        "last_name": "Young"
       }
     ]
   },

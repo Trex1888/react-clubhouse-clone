@@ -18,7 +18,7 @@ function RoomCard() {
                 </div>
                 <div>
                   {item.members.map((person) => (
-                    <p>
+                    <p key={item.id}>
                       {person.first_name} {person.last_name} <BsChatDots />
                     </p>
                   ))}

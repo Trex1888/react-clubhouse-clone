@@ -1,5 +1,5 @@
 import style from "../style/daily.module.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import data from "../data/dailyCard.json";
 
 function DailyCard() {
