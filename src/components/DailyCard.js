@@ -1,5 +1,4 @@
 import style from "../style/daily.module.css";
-// import { Link } from "react-router-dom";
 import data from "../data/dailyCard.json";
 
 function DailyCard() {
@@ -8,9 +7,9 @@ function DailyCard() {
       {data.map((item, index) => (
         <div key={index}>
           <span>{item.time}</span>
-          <div>
-            <span>{item.title}</span>
-            <p>{item.description}</p>
+          <div key={index}>
+            <span className={style.title}>{item.title}</span>
+            <p className={style.description}>{item.description || ""}</p>
           </div>
         </div>
       ))}

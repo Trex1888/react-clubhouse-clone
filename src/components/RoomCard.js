@@ -5,8 +5,8 @@ import { BsChatDots, BsChatDotsFill, BsFillPersonFill } from "react-icons/bs";
 function RoomCard() {
   return (
     <>
-      {data.map((item) => (
-        <div>
+      {data.map((item, index) => (
+        <div key={index}>
           <div>
             <div className={style.roomContainer}>
               <h6>{item.title}</h6>
@@ -17,8 +17,8 @@ function RoomCard() {
                   <img src="/images/jerry2.jpg" alt="img" />
                 </div>
                 <div>
-                  {item.members.map((person) => (
-                    <p key={item.id}>
+                  {item.members.map((person, index) => (
+                    <p key={index}>
                       {person.first_name} {person.last_name} <BsChatDots />
                     </p>
                   ))}

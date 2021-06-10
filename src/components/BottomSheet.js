@@ -1,20 +1,25 @@
 import style from "../style/sheet.module.css";
 import SwipeableBottomSheet from "react-swipeable-bottom-sheet";
 
-function BottomSheet({ props }) {
+function BottomSheet({
+  sheetVisible,
+  setSheetVisible,
+  setItemsVisible,
+  sheetTitle,
+}) {
   return (
     <SwipeableBottomSheet
-      open={props.sheetVisible}
+      open={sheetVisible}
       onChange={() => {
-        props.setSheetVisible(!props.sheetVisible);
-        props.setItemsVisible(true);
+        setSheetVisible(!sheetVisible);
+        setItemsVisible(true);
       }}
-      fullScreen={props.sheetTitle === "room detail" ? true : false}
+      fullScreen={sheetTitle === "room detail" ? true : false}
     >
       <div
-        className={style.sheetContainer}
+        className={style.BottomSheetContainer}
         style={{
-          backgroundColor: props.sheetTitle === "profile" ? "transparent" : "",
+          backgroundColor: sheetTitle === "profile" ? "transparent" : "",
         }}
       ></div>
     </SwipeableBottomSheet>

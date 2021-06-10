@@ -25,16 +25,15 @@ function Home() {
 
       <div className={style.action_btn}>
         <button onClick={() => setSheetVisible(true)}>
-          <AiOutlinePlus className="me-2" />
-          Start A Room
+          <AiOutlinePlus className="mr-2" />
+          Start a Room
         </button>
         <button>
           <BsGrid3X3Gap />
         </button>
       </div>
-
-      {/* <BottomSheet
-        sheetTitle="start room"
+      <BottomSheet
+        sheetTitle="Start Room"
         setSheetVisible={(item) => setSheetVisible(item)}
         sheetVisible={sheetVisible}
         cardDetail={data.find((item) => item.id === cardId)}
@@ -46,7 +45,7 @@ function Home() {
             setLoaderVisibility(false);
           }, 1000);
         }}
-      /> */}
+      />
     </>
   );
 }
