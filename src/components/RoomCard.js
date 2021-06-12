@@ -23,10 +23,10 @@ function RoomCard() {
                     </p>
                   ))}
                   <p className="d-flex align-items-center">
-                    <span className="me-1">1.7</span>
+                    <span className="me-1">4.2k</span>
                     <BsFillPersonFill />
                     <span className="mx-2"></span>{" "}
-                    <span className="me-1">5</span>
+                    <span className="me-1">7</span>
                     <BsChatDotsFill />
                   </p>
                 </div>

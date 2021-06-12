@@ -1,17 +1,17 @@
 [
   {
     "time": "7:00 PM",
-    "title": "React project",
+    "title": "React Project",
     "description": "Let's code"
   },
   {
     "time": "9:00 PM",
-    "title": "MERN project",
-    "description": "React zoom meeting"
+    "title": "MERN Project",
+    "description": "React Zoom Meeting"
   },
   {
     "time": "10:00 PM",
-    "title": "Nextjs project",
+    "title": "Nextjs Project",
     "description": "What should we code today?"
   }
 ]
