@@ -23,11 +23,10 @@
 }
 
 .selectRoom {
-  border-bottom: 1px solid #ccc;
-  padding: 1.5em;
   display: flex;
   align-items: center;
-  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 1.5em;
   justify-content: space-between;
 }
 
@@ -59,4 +58,19 @@
   color: var(--textColor);
   text-align: center;
   font-weight: 500;
+}
+
+.letBtn {
+  font-size: 1.3em;
+  font-weight: 500;
+  border: none;
+  border-radius: 2em;
+  color: #fff;
+  background-color: #28ae61;
+  padding: 0.3em 2em;
+  text-align: center;
+}
+
+.letBtn:hover {
+  opacity: 0.9;
 }

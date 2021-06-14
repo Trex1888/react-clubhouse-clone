@@ -11,6 +11,7 @@ const StartRoom = ({ setSheetCreateRoom, setSheetVisible }) => {
       <div className="text-right">
         <button className={style.addTopicBtn}>+ Add a Topic</button>
       </div>
+
       <div className={style.selectRoom}>
         <button
           className={room === "open" ? style.active : ""}
@@ -21,6 +22,7 @@ const StartRoom = ({ setSheetCreateRoom, setSheetVisible }) => {
           </div>
           <span className={style.title}>Open</span>
         </button>
+
         <button
           className={room === "social" ? style.active : ""}
           onClick={() => setRoom("social")}
@@ -30,6 +32,7 @@ const StartRoom = ({ setSheetCreateRoom, setSheetVisible }) => {
           </div>
           <span className={style.title}>Social</span>
         </button>
+
         <button
           className={room === "closed" ? style.active : ""}
           onClick={() => setRoom("closed")}
@@ -40,6 +43,7 @@ const StartRoom = ({ setSheetCreateRoom, setSheetVisible }) => {
           <span className={style.title}>Closed</span>
         </button>
       </div>
+
       <p>
         Start a Room{" "}
         <span>
@@ -52,13 +56,13 @@ const StartRoom = ({ setSheetCreateRoom, setSheetVisible }) => {
       </p>
       <div className="text-center">
         <button
-          className={style.letGoBtn}
+          className={style.letBtn}
           onClick={() => {
             setSheetCreateRoom(true);
             setSheetVisible(true);
           }}
         >
-          🎉 Let's Go!
+          Start Room
         </button>
       </div>
     </>
@@ -66,4 +70,3 @@ const StartRoom = ({ setSheetCreateRoom, setSheetVisible }) => {
 };
 
 export default StartRoom;
-//251
