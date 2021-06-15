@@ -17,3 +17,31 @@
 .nav_items img {
   margin: 0 0.8em;
 }
+
+@media (max-width: 425px) {
+  .input {
+    width: 6em;
+    margin-left: 3px;
+  }
+}
+@media (max-width: 472px) {
+  .input {
+    width: 8em;
+  }
+}
+@media (max-width: 405px) {
+  .input {
+    width: 5em;
+  }
+}
+@media (max-width: 352px) {
+  .input {
+    display: none;
+  }
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid #e7e4d5;
+  transition: border 0.15s ease-in-out;
+}

@@ -144,3 +144,12 @@
   font-size: 1.5em;
   margin-right: 0.5em;
 }
+
+@media (max-width: 400px) {
+  .memberContainer span {
+    line-height: 0.75;
+    padding-top: 2px;
+    width: 14px;
+    height: 14px;
+  }
+}

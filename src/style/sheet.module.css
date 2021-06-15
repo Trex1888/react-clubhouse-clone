@@ -74,3 +74,17 @@
 .letBtn:hover {
   opacity: 0.9;
 }
+
+@media (max-width: 372px) {
+  .selectRoom button svg {
+    font-size: 2em;
+    height: 1.5em;
+  }
+  .selectRoom button div {
+    background-color: transparent;
+  }
+  .BottomSheetContainer {
+    padding: auto;
+    padding-bottom: 1em;
+  }
+}

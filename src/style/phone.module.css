@@ -92,3 +92,13 @@
   right: 70px;
   width: 80px;
 }
+
+@media (max-width: 350px) {
+  .Input > div img {
+    height: 30px;
+    width: 30px;
+  }
+  .Input > div > select {
+    width: 100px;
+  }
+}

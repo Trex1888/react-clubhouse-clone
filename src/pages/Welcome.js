@@ -22,12 +22,12 @@ function Welcome() {
       <div className={style.actionBtn}>
         <Link
           exact
-          to="/username"
+          to="/invite"
           className="primaryBtn d-flex align-items-center mb-3"
         >
           Get Username{" "}
         </Link>
-        <Link>Have An Invite Text? Sign in</Link>
+        <Link>Click HERE To Clubhouse Rooms</Link>
       </div>
     </div>
   );
