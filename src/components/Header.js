@@ -1,5 +1,6 @@
 import style from "../style/header.module.css";
 import { Link } from "react-router-dom";
+import { Input } from "antd";
 
 function Header() {
   return (
@@ -7,7 +8,6 @@ function Header() {
       <Link exact to="/explore">
         <img src="/images/search.png" alt="search" />
       </Link>
-
       <div className={style.nav_items}>
         <Link exact to="/invite">
           <img src="/images/invite.png" alt="img" />

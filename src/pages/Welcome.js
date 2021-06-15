@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Welcome() {
   return (
     <div className={style.welcomeContainer}>
-      <h1>Welcome!</h1>
+      <h1>Welcome To Clubhouse!</h1>
       <div className={style.welcomeInfo}>
         <p>
           We are working hard to get Clubhouse ready for everyone! While we wrap
@@ -27,7 +27,13 @@ function Welcome() {
         >
           Get Username{" "}
         </Link>
-        <Link>Click HERE To Clubhouse Rooms</Link>
+        <Link
+          exact
+          to="/home"
+          className="primaryBtn d-flex align-items-center mb-3"
+        >
+          Click HERE To Skip Login{" "}
+        </Link>
       </div>
     </div>
   );

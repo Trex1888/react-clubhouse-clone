@@ -9,6 +9,9 @@
 }
 
 .welcomeContainer h1 {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
   font-size: 1.7em;
   font-weight: 500;
   font-style: normal;
@@ -37,9 +40,9 @@
   justify-content: center;
 }
 
-.actionBtn > a:last-child {
+/* .actionBtn > a:last-child {
   color: var(--btnBgColor);
   font-style: 0.875em;
   font-weight: 400;
   font-style: normal;
-}
+} */

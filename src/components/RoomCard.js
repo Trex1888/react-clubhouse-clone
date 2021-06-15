@@ -14,7 +14,7 @@ function RoomCard() {
               <div className={style.roomMembers}>
                 <div>
                   <img src="/images/jerry1.jpg" alt="img" />
-                  <img src="/images/jerry2.jpg" alt="img" />
+                  <img src="/images/msg12.jpg" alt="img" />
                 </div>
                 <div>
                   {item.members.map((person, index) => (
